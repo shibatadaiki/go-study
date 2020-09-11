@@ -11,7 +11,7 @@
 
 ## debug
 
-#### （`import "runtime"`をした後、コード上の任意の箇所で`runtime.Breakpoint()`を記述）
+（`import "runtime"`をした後、コード上の任意の箇所で`runtime.Breakpoint()`を記述）
 
 `docker exec -it go-study_app_1 bash`
 
