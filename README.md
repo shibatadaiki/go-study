@@ -19,7 +19,7 @@
 
 ## doc
 
-`docker run --rm -p 127.0.0.1:3000:3000 go-study_app godoc -http 0.0.0.0:3000`
+`docker run --rm -p 127.0.0.1:4000:4000 go-study_app godoc -http 0.0.0.0:4000`
 
 ## REPL
 

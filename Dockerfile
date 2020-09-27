@@ -19,4 +19,4 @@ WORKDIR /go/src/work
 
 ADD . /go/src/work
 
-EXPOSE 3000:3000
+EXPOSE 3000:3000 4000:4000

@@ -9,4 +9,7 @@ services:
       - SYS_PTRACE
     security_opt:
       - apparmor:unconfined
-    command: air
+    ports:
+      - "3000:3000"
+      - "4000:4000"
+    command: bash -c "air && go run main.go"
